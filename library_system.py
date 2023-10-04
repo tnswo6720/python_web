@@ -46,7 +46,7 @@ def admin_actions():
                 return "도서관 멤버가 아닙니다. 올바른 멤버 이름을 입력하세요."
 
             if book_title not in books:
-                return "책이 존재하지 않습니다. 올바른 책 이름을 입력하세요."
+                return "책이 존재하지 않습니디. 올바른 책 이름을 입력하세요."
 
             # 대출
             if 'borrow' in request.form:
