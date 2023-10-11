@@ -5,6 +5,6 @@ def calculate_age(birthdate):
     age = today.year - birthdate.year - ((today.month, today.day) < (birthdate.month, birthdate.day))
     return age
 
-# ¿¹½Ã·Î 1990³â 3¿ù 15ÀÏ¿¡ ÅÂ¾î³­ »ç¶÷ÀÇ ³ªÀÌ¸¦ °è»ê
-birthdate = date(1990, 3, 15)
+# ì˜ˆì‹œë¡œ 1990ë…„ 3ì›” 15ì¼ì— íƒœì–´ë‚œ ì‚¬ëžŒì˜ ë‚˜ì´ë¥¼ ê³„ì‚°
+birthdate = date(2000, 3, 15)
 print(calculate_age(birthdate))
