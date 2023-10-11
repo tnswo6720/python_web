@@ -30,7 +30,7 @@ def admin_actions():
             new_book_title = request.form['new_book_title']
 
             if new_book_title not in books:
-                books[new_book_title] = '대출 가능'
+                books[new_book_title] = '대충 가능'
 
         if 'book_title_to_remove' in request.form:
             book_title_to_remove = request.form['book_title_to_remove']
